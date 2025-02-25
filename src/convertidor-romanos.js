@@ -11,3 +11,5 @@ function enteroARomano(num) {
 		}
   }
 }
+
+export default enteroARomano;
