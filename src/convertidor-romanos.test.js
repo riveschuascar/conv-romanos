@@ -36,4 +36,28 @@ describe("Conversion de enteros a romanos rango 1-10", () => {
     test("Convertir 94 a XCIV", () => {
         expect(enteroARomano(94)).toBe("XCIV");
     });
+
+    test("Convertir 200 a CC", () => {
+        expect(enteroARomano(200)).toBe("CC");
+    });
+
+    test("Convertir 404 a CDIV", () => {
+        expect(enteroARomano(404)).toBe("CDIV");
+    });
+
+    test("Convertir 540 a DXL", () => {
+        expect(enteroARomano(540)).toBe("DXL");
+    });
+
+    test("Convertir 808 a DCCCVIII", () => {
+        expect(enteroARomano(808)).toBe("DCCCVIII");
+    });
+
+    test("Convertir 910 a CMX", () => {
+        expect(enteroARomano(910)).toBe("CMX");
+    });
+
+    test("Convertir 1000 a M", () => {
+        expect(enteroARomano(1000)).toBe("M");
+    });
 })
