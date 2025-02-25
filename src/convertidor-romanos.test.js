@@ -20,4 +20,20 @@ describe("Conversion de enteros a romanos rango 1-10", () => {
     test("Convertir 10 a X", () => {
         expect(enteroARomano(10)).toBe("X");
     });
+
+    test("Convertir 15 a XV", () => {
+        expect(enteroARomano(15)).toBe("XV");
+    });
+
+    test("Convertir 39 a XXXIX", () => {
+        expect(enteroARomano(39)).toBe("XXXIX");
+    });
+
+    test("Convertir 51 a LI", () => {
+        expect(enteroARomano(51)).toBe("LI");
+    });
+
+    test("Convertir 94 a XCIV", () => {
+        expect(enteroARomano(94)).toBe("XCIV");
+    });
 })
