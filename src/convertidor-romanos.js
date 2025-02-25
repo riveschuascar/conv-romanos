@@ -10,6 +10,8 @@ function enteroARomano(num) {
 			num -= numero;
 		}
   }
+
+	return respuesta;
 }
 
 export default enteroARomano;
