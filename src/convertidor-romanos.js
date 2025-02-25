@@ -4,7 +4,7 @@ function enteroARomano(num) {
   ];
 
   let respuesta = "";
-  for ([numero, simbolo] of mapa_conversion) {
+  for (const [numero, simbolo] of mapa_conversion) {
     while (num > numero) {
 			respuesta += simbolo;
 			num -= numero;
